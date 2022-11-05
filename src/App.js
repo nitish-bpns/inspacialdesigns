@@ -8,7 +8,7 @@ import { ScrollToTop } from 'react-router-scroll-to-top';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Routes>
 
