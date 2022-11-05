@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/inspacialdesigns/static/css/main.4d95bbc3.css",
-    "main.js": "/inspacialdesigns/static/js/main.3ab3ba29.js",
+    "main.js": "/inspacialdesigns/static/js/main.41ce459f.js",
     "static/js/787.03a6c58a.chunk.js": "/inspacialdesigns/static/js/787.03a6c58a.chunk.js",
     "static/media/revicons.eot": "/inspacialdesigns/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/inspacialdesigns/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/inspacialdesigns/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/inspacialdesigns/index.html",
     "main.4d95bbc3.css.map": "/inspacialdesigns/static/css/main.4d95bbc3.css.map",
-    "main.3ab3ba29.js.map": "/inspacialdesigns/static/js/main.3ab3ba29.js.map",
+    "main.41ce459f.js.map": "/inspacialdesigns/static/js/main.41ce459f.js.map",
     "787.03a6c58a.chunk.js.map": "/inspacialdesigns/static/js/787.03a6c58a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d95bbc3.css",
-    "static/js/main.3ab3ba29.js"
+    "static/js/main.41ce459f.js"
   ]
 }
