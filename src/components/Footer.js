@@ -37,13 +37,14 @@ function Footer() {
                     </a>
 
 
-                    <br />
+                    <br /><br />
                     <span className={styles.socialLink2}>
-                        Contact no: <span className={styles.footContact}>+91 6281 444 679</span>
+                        Contact no: <span className={styles.footContact}>+91 6281 444 679<br />
+                            +919397688578</span>
                     </span>
                     <br />
                     <span className={styles.socialLink2}>
-                        Email Id: <span className={styles.footContact}>vaibhav@inspacialdesigns.com</span>
+                        Email Id: <span className={styles.footContact}>admin@inspacialdesigns.com</span>
                     </span>
                 </center>
 

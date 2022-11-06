@@ -313,7 +313,8 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 36px;
-        background: #FBABAB;
+        /* background: #FBABAB; */
+        background-color: #dfdfdf;
         border-radius: 20px;
         width: 94%;
         padding: 3px 0 3px 0;
@@ -470,7 +471,8 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        background: #FBABAB;
+        /* background: #FBABAB; */
+        background-color: #dfdfdf;
         border-radius: 20px;
         width: 200px;
         padding: 3px 0 3px 0;
@@ -568,7 +570,8 @@
     }
 
     .cont1Btn {
-        background: #FBABAB;
+        /* background: #FBABAB; */
+        background-color: #dfdfdf;
         border-radius: 20px;
         width: 50%;
         margin: 3% 0 0 0%;
@@ -580,7 +583,8 @@
     }
 
     .cont2Btn {
-        background: #FBABAB;
+        /* background: #FBABAB; */
+        background-color: #dfdfdf;
         border-radius: 20px;
         width: 50%;
         margin: 3% 0% 0 0;

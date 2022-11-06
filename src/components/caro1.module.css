@@ -1,5 +1,5 @@
 .card {
-    height: 23rem;
+    height: 27rem;
     /* background-color: lightgreen; */
     border: 1px solid black;
     margin: 10px;
@@ -7,7 +7,7 @@
 
 .caroImg {
     width: 100%;
-    height: 20rem;
+    height: 24rem;
 }
 
 .sugg {
