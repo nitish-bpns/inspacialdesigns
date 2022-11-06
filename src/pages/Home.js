@@ -82,7 +82,7 @@ function Home(props) {
 
 
     const [formData, setFormData] = useState({});
-    const [setMessage] = useState("");
+    const [message, setMessage] = useState("");
 
     const handleInput = (e) => {
         const copyFormData = { ...formData };
@@ -114,13 +114,12 @@ function Home(props) {
                         },
                     }
                 );
-
-
                 const json = await response.json();
                 console.log("Success:", JSON.stringify(json));
                 setMessage("Success");
                 closeModal();
                 alert('Submitted successfully. We will react to you soon.')
+
             }
 
             else {
