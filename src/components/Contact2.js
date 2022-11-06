@@ -86,6 +86,7 @@ function Contact2() {
         } catch (error) {
             console.error("Error:", error);
             setMessage("Error");
+            message("Error");
         }
     };
 

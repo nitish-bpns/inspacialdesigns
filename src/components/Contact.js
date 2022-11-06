@@ -155,6 +155,7 @@ function Contact() {
         } catch (error) {
             console.error("Error:", error);
             setMessage("Error");
+            message("Error");
         }
     };
 

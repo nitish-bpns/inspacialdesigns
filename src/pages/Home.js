@@ -129,6 +129,7 @@ function Home(props) {
         } catch (error) {
             console.error("Error:", error);
             setMessage("Error");
+            message("Error");
         }
     };
 
