@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className={styles.wfoot}>
             <div className={styles.wfoot1}>
-                <img className={styles.footIcon} src='./../images/logo.png' />
+                <img className={styles.footIcon} src='./../images/logo.png' alt='img' />
 
                 <center>
                     <div className={styles.footcon}>
@@ -23,17 +23,17 @@ function Footer() {
                         Follow us on:
                     </span>
                     <br />
-                    <a href='#' target='_blank'>
-                        <img className={styles.footIcon2} src='./../images/li.png' />
+                    <a href='https://www.linkedin.com/company/inspacial-designs' target='_blank' rel="noreferrer">
+                        <img className={styles.footIcon2} src='./../images/li.png' alt='img' />
                     </a>
-                    <a href='#' target='_blank'>
-                        <img className={styles.footIcon2} src='./../images/fb.png' />
+                    <a href='https://www.facebook.com/inspacialdesigns/' target='_blank' rel="noreferrer">
+                        <img className={styles.footIcon2} src='./../images/fb.png' alt='img' />
                     </a>
-                    <a href='https://www.instagram.com/inspacial.design.studio/' target='_blank'>
-                        <img className={styles.footIcon2} src='./../images/ig.png' />
+                    <a href='https://www.instagram.com/inspacial.design.studio/' target='_blank' rel="noreferrer">
+                        <img className={styles.footIcon2} src='./../images/ig.png' alt='img' />
                     </a>
-                    <a href='https://www.youtube.com/channel/UC6D58QPkBLd83EWyogFoSpw/featured' target='_blank'>
-                        <img className={styles.footIcon2} src='./../images/yt.png' />
+                    <a href='https://www.youtube.com/channel/UC6D58QPkBLd83EWyogFoSpw/featured' target='_blank' rel="noreferrer">
+                        <img className={styles.footIcon2} src='./../images/yt.png' alt='img' />
                     </a>
 
 

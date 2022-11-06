@@ -156,7 +156,7 @@ function Project(props) {
                 </div>
 
                 {
-                    `${no}` == 1 || `${no}` == 2 || `${no}` == 3 ? <Sugg2 /> : <Sugg1 />
+                    `${no}` === `1` || `${no}` === `2` || `${no}` === `3` ? <Sugg2 /> : <Sugg1 />
                 }
 
             </div>

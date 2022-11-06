@@ -82,7 +82,7 @@ function Home(props) {
 
 
     const [formData, setFormData] = useState({});
-    const [message, setMessage] = useState("");
+    const [setMessage] = useState("");
 
     const handleInput = (e) => {
         const copyFormData = { ...formData };
@@ -361,7 +361,7 @@ function Home(props) {
             <br />
 
             <center>
-                <img src='./../images/gall.png' className={styles.gall1} />
+                <img src='./../images/gall.png' className={styles.gall1} alt='img' />
             </center>
 
             <div className={styles.divGall}>
@@ -385,12 +385,12 @@ function Home(props) {
                 >
 
 
-                    <img className={styles.homeCaro2} src='./../images/gall/1a.jpg' />
-                    <img className={styles.homeCaro2} src='./../images/gall/2a.jpg' />
-                    <img className={styles.homeCaro2} src='./../images/gall/3a.jpg' />
-                    <img className={styles.homeCaro2} src='./../images/gall/1b.jpg' />
-                    <img className={styles.homeCaro2} src='./../images/gall/2b.jpg' />
-                    <img className={styles.homeCaro2} src='./../images/gall/3b.jpg' />
+                    <img className={styles.homeCaro2} src='./../images/gall/1a.jpg' alt='img' />
+                    <img className={styles.homeCaro2} src='./../images/gall/2a.jpg' alt='img' />
+                    <img className={styles.homeCaro2} src='./../images/gall/3a.jpg' alt='img' />
+                    <img className={styles.homeCaro2} src='./../images/gall/1b.jpg' alt='img' />
+                    <img className={styles.homeCaro2} src='./../images/gall/2b.jpg' alt='img' />
+                    <img className={styles.homeCaro2} src='./../images/gall/3b.jpg' alt='img' />
 
 
                 </Carousel >

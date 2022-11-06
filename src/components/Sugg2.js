@@ -2,7 +2,7 @@ import React from 'react'
 import { ProjectData2 } from './ProjectData2';
 import { Link } from 'react-router-dom';
 import styles from './caro1.module.css';
-import Carousel from "react-multi-carousel";
+// import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 
@@ -51,7 +51,7 @@ function Sugg2() {
                     >
 
                         <div className={styles.suggCard}>
-                            <img className={styles.suggImg} src={item.img[0]} />
+                            <img className={styles.suggImg} src={item.img[0]} alt='img' />
                             <br />
                             <center>
                                 <span className={styles.suggText}> {item.title}</span>

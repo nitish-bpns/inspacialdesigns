@@ -85,7 +85,7 @@ function Caro1(props) {
                             >
                                 <div className={styles.card}>
 
-                                    <img className={styles.caroImg} src={item.img[0]} />
+                                    <img className={styles.caroImg} src={item.img[0]} alt='img' />
 
                                     <span className={styles.ownHead}>
                                         <center>

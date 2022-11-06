@@ -35,7 +35,7 @@ function Navbar() {
                     scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
                     to="/">
                     <li>
-                        <img className={styles.ilogo} src='./../images/logo.png' />
+                        <img className={styles.ilogo} src='./../images/logo.png' alt='img' />
                     </li>
                 </HashLink>
 
@@ -75,7 +75,7 @@ function Navbar() {
                 )}
             </ul>
 
-            <button onClick={toggleNav} className={styles.btn}><img src='./../images/line.png' /></button>
+            <button onClick={toggleNav} className={styles.btn}><img src='./../images/line.png' alt='img' /></button>
         </nav>
     )
 }

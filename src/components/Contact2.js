@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './contact.module.css';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 
 const customStyles = {
@@ -39,7 +39,7 @@ function Contact2() {
 
 
     const [formData, setFormData] = useState({});
-    const [message, setMessage] = useState("");
+    const [setMessage] = useState("");
 
     const handleInput = (e) => {
         const copyFormData = { ...formData };
