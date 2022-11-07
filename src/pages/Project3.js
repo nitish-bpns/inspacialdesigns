@@ -66,45 +66,7 @@ function Project3(props) {
                     <div className={styles.pimg} >
                         <img className={styles.img1} src='./../images/P3/3.jpg' alt='img' />
                     </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/4.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/5.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/6.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/7.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/8.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/9.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/10.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/11.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/12.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/13.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/14.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/15.jpg' alt='img' />
-                    </div>
-                    <div className={styles.pimg} >
-                        <img className={styles.img1} src='./../images/P3/16.jpg' alt='img' />
-                    </div>
+
 
 
                 </Carousel >
