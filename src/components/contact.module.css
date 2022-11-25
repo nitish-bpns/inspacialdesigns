@@ -24,6 +24,20 @@
     padding: 20px 20px 20px 20px;
 }
 
+.btn1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    background: #FBABAB;
+    border-radius: 20px;
+    width: 400px;
+    padding: 3px 0 3px 0;
+}
+
+.btn1:hover {
+    cursor: pointer;
+}
+
 .cont1Btn:hover,
 .cont2Btn:hover {
     cursor: pointer;
@@ -168,6 +182,17 @@
         padding: 20px 20px 20px 20px;
     }
 
+    .btn1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        /* background: #FBABAB; */
+        background-color: #dfdfdf;
+        border-radius: 20px;
+        width: 94%;
+        padding: 3px 0 3px 0;
+    }
+
 }
 
 
@@ -198,6 +223,18 @@
         font-size: 18px;
         line-height: 21px;
         padding: 10px 10px 10px 10px;
+    }
+
+    .btn1 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        /* background: #FBABAB; */
+        background-color: #dfdfdf;
+        border-radius: 20px;
+        width: 200px;
+        padding: 3px 0 3px 0;
+        margin: 3px 0 2px 0;
     }
 
 

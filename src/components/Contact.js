@@ -162,7 +162,7 @@ function Contact() {
     return (
         <div className={styles.cont}>
 
-            <button className={styles.cont1Btn} onClick={openModal} >
+            <button className={styles.btn1} onClick={openModal} >
                 CAREER RELATED
             </button>
 

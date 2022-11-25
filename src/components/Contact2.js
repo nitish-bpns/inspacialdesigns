@@ -97,7 +97,7 @@ function Contact2() {
     return (
         <div className={styles.cont}>
 
-            <button className={styles.cont2Btn} onClick={openModal} >
+            <button className={styles.btn1} onClick={openModal} >
                 AS A CLIENT
             </button>
 
