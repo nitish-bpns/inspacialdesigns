@@ -9,7 +9,7 @@ nav {
 
 .list {
     list-style-type: none;
-    background: rgb(223, 223, 223);
+    background: #7D7D7D;
     height: 100%;
     display: flex;
     /* justify-content: center; */
@@ -36,6 +36,8 @@ nav {
     padding: 5px 5px 1px 5px;
     color: #000;
     font-size: 18px;
+    border: none !important;
+    background-color: #7D7D7D;
 }
 
 .ilogo {
@@ -194,7 +196,7 @@ nav {
     }
 
     .ilogo {
-        height: 2.8rem;
+        height: 3rem;
         padding: 0px 0 0 0px;
         margin: 0 16rem 0 4rem;
         z-index: 99;
