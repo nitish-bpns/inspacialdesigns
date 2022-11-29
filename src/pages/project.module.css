@@ -21,8 +21,8 @@
 .img1 {
     width: 65%;
     margin: 0 17% 0 17%;
-    border: 1px solid black;
-    box-shadow: 0 0 10px grey;
+    /* border: 1px solid black; */
+    /* box-shadow: 0 0 10px grey; */
 }
 
 .pdetail {
@@ -53,7 +53,7 @@
     }
 
     .cdate {
-        font-size: 21px;
+        font-size: 20px;
         line-height: 25px;
     }
 
@@ -75,8 +75,8 @@
     .img1 {
         width: 100%;
         margin: 0 0% 0 0%;
-        border: 1px solid black;
-        box-shadow: 0 0 10px grey;
+        /* border: 1px solid black; */
+        /* box-shadow: 0 0 10px grey; */
     }
 
     .projHead {

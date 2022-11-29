@@ -117,7 +117,7 @@ function Contact2() {
 
                     <div className={styles.minp}>
                         <label className={styles.minp1}>
-                            Name
+                            Name*:
                         </label>
                         <input
                             className={styles.minp2}
@@ -133,11 +133,11 @@ function Contact2() {
                     <br />
 
                     <div className={styles.minp}>
-                        <label className={styles.minp3}>
-                            Contact No.:
+                        <label className={styles.minp1}>
+                            Contact No*:
                         </label>
                         <input
-                            className={styles.minp4}
+                            className={styles.minp2}
                             type='number'
                             name='contact'
                             // value={userData.contact}
@@ -145,12 +145,17 @@ function Contact2() {
                             onChange={handleInput}
                         >
                         </input>
+                    </div>
 
-                        <label className={styles.minp5}>
-                            Email id:
+                    <br />
+
+                    <div className={styles.minp}>
+
+                        <label className={styles.minp1}>
+                            Email id*:
                         </label>
                         <input
-                            className={styles.minp6}
+                            className={styles.minp2}
                             type='email'
                             name='email'
                             // value={userData.email}
@@ -216,11 +221,11 @@ function Contact2() {
                     <br />
 
                     <div className={styles.minp}>
-                        <label className={styles.minp3}>
+                        <label className={styles.minp1}>
                             Budget:
                         </label>
                         <input
-                            className={styles.minp4}
+                            className={styles.minp2}
                             type='text'
                             name='budget'
                             // value={userData.contact}
@@ -229,11 +234,16 @@ function Contact2() {
                         >
                         </input>
 
-                        <label className={styles.minp5}>
+                    </div>
+
+                    <br />
+                    <div className={styles.minp}>
+
+                        <label className={styles.minp1}>
                             Timeline:
                         </label>
                         <input
-                            className={styles.minp6}
+                            className={styles.minp2}
                             type='text'
                             name='timeline'
                             placeholder='DD/MM/YYYY'

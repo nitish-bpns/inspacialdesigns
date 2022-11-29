@@ -155,7 +155,7 @@ nav {
     .ilogo {
         height: 2.8rem;
         padding: 0px 0 0 0px;
-        margin: 0 37rem 0 0rem;
+        margin: 0 42rem 0 0rem;
         z-index: 99;
     }
 
@@ -181,6 +181,10 @@ nav {
         padding: 2% 20% 2% 20%;
     }
 
+    .footContactH {
+        margin: 0 0 -12px 0;
+    }
+
 
 
 
@@ -195,7 +199,7 @@ nav {
         height: auto;
         margin-top: 0px;
         margin: 0px 0 0 0;
-        padding: 14px 0 3px 0;
+        padding: 10px 0 3px 0;
         box-shadow: grey 2px 0 4px;
         z-index: 2;
     }
@@ -281,7 +285,7 @@ nav {
 
     .footIcon2 {
         width: auto;
-        height: 2.5rem;
+        height: 2rem;
         padding: 2%;
     }
 

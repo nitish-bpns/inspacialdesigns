@@ -182,7 +182,7 @@ function Contact() {
 
                     <div className={styles.minp}>
                         <label className={styles.minp1}>
-                            Name
+                            Name*:
                         </label>
                         <input
                             className={styles.minp2}
@@ -198,11 +198,11 @@ function Contact() {
                     <br />
 
                     <div className={styles.minp}>
-                        <label className={styles.minp3}>
-                            Contact No.:
+                        <label className={styles.minp1}>
+                            Contact No*:
                         </label>
                         <input
-                            className={styles.minp4}
+                            className={styles.minp2}
                             type='number'
                             name='contact'
                             // value={userData.contact}
@@ -210,12 +210,17 @@ function Contact() {
                             onChange={handleInput}
                         >
                         </input>
+                    </div>
 
-                        <label className={styles.minp5}>
-                            Email id:
+                    <br />
+
+                    <div className={styles.minp}>
+
+                        <label className={styles.minp1}>
+                            Email id*:
                         </label>
                         <input
-                            className={styles.minp6}
+                            className={styles.minp2}
                             type='email'
                             name='email'
                             // value={userData.email}
@@ -229,7 +234,7 @@ function Contact() {
 
                     <div className={styles.minp}>
                         <label className={styles.minp1}>
-                            Subject:
+                            Subject*:
                         </label>
                         <input
                             className={styles.minp2}
@@ -251,7 +256,7 @@ function Contact() {
                         <input
                             className={styles.minp2}
                             type='text'
-                            placeholder='Upload the drive link'
+                            placeholder=' Drive link'
                             name='resume'
                             // value={userData.resume}
                             // onChange={postUserData}
@@ -264,7 +269,7 @@ function Contact() {
 
                     <div className={styles.minp}>
                         <label className={styles.minp1}>
-                            Message:
+                            Message*:
                         </label>
                         <textarea
                             className={styles.minp2}

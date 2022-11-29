@@ -45,7 +45,7 @@ export const ProjectData = [
         location: 'Manikonda, Hyderabad, Telangana',
         area: '_',
         category: 'Elevation design',
-        head: 'cc hh',
+        head: 'Contemporary',
         desc1: 'Design',
         desc2: 'c desc 2',
 

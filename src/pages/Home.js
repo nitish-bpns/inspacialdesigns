@@ -253,7 +253,7 @@ function Home(props) {
 
                     <div className={styles.minp}>
                         <label className={styles.minp1}>
-                            Name
+                            Name*:
                         </label>
                         <input
                             className={styles.minp2}
@@ -269,11 +269,11 @@ function Home(props) {
                     <br />
 
                     <div className={styles.minp}>
-                        <label className={styles.minp3}>
-                            Contact No.:
+                        <label className={styles.minp1}>
+                            Contact No*:
                         </label>
                         <input
-                            className={styles.minp4}
+                            className={styles.minp2}
                             type='number'
                             name='contact'
                             // value={userData.contact}
@@ -281,12 +281,16 @@ function Home(props) {
                             onChange={handleInput}
                         >
                         </input>
+                    </div>
 
-                        <label className={styles.minp5}>
-                            Email id:
+                    <br />
+
+                    <div className={styles.minp}>
+                        <label className={styles.minp1}>
+                            Email id*:
                         </label>
                         <input
-                            className={styles.minp6}
+                            className={styles.minp2}
                             type='email'
                             name='email'
                             // value={userData.email}
@@ -317,13 +321,13 @@ function Home(props) {
 
                     <div className={styles.minp}>
                         <label className={styles.minp1}>
-                            Message:
+                            Message*:
                         </label>
                         <textarea
                             className={styles.minp2}
                             type='textarea'
                             placeholder='Type your message'
-                            row='3'
+                            row='5'
                             name='message'
                             // value={userData.message}
                             // onChange={postUserData}
