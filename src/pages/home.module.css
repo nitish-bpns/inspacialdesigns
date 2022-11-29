@@ -173,6 +173,7 @@
 .cont {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 10% 0 10%;
 }
 
 .cont1 {
@@ -300,6 +301,7 @@
 
     .gall1 {
         width: 90%;
+        margin: 0 0 7px 0;
     }
 
     .readBtn {
@@ -355,7 +357,7 @@
     .states1 {
         display: flex;
         flex-wrap: wrap;
-        margin: 15% 5% 3% 5%;
+        margin: 10% 5% 3% 5%;
     }
 
     .count {
@@ -374,8 +376,25 @@
         color: #727272;
     }
 
+    .walkv {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2% 5% 0 5%;
+    }
 
+    .head1 {
+        font-weight: 650;
+        font-size: 35px;
+        line-height: 56px;
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
 
+    .cont {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5% 0 5%;
+    }
 
 
 }

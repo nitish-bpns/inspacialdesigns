@@ -159,6 +159,30 @@ nav {
         z-index: 99;
     }
 
+    .wfoot1 {
+        width: 100%;
+        margin: 0 0 10% 0;
+    }
+
+    .wfoot2 {
+        width: 100%;
+        margin: 0 0 0 3%;
+    }
+
+    .footIcon {
+        width: 52%;
+        padding: 0 0 0 25%;
+    }
+
+    .wfoot {
+        display: flex;
+        flex-wrap: wrap;
+        background: #7D7D7D;
+        padding: 2% 20% 2% 20%;
+    }
+
+
+
 
 
 }
@@ -220,8 +244,8 @@ nav {
     }
 
     .footIcon {
-        width: 80%;
-        padding: 0 0 0 8%;
+        width: 65%;
+        padding: 0 0 0 18%;
     }
 
     .footHead {
@@ -269,6 +293,10 @@ nav {
         font-size: 18px;
         line-height: 22px;
         color: white;
+    }
+
+    .footContactH {
+        margin: 0 0 -12px 0;
     }
 
 }

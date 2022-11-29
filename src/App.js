@@ -20,12 +20,12 @@ function App() {
 
         <Route path='/' exact element={<Home />}></Route>
         <Route path='/projects' element={<Project />}></Route>
-        <Route path='/projects/nalini' element={<Project1 />}></Route>
+        {/* <Route path='/projects/nalini' element={<Project1 />}></Route>
         <Route path='/projects/vamsi' element={<Project2 />}></Route>
         <Route path='/projects/venkatesh' element={<Project3 />}></Route>
         <Route path='/projects/venkatramana' element={<Project4 />}></Route>
         <Route path='/projects/sridhar' element={<Project5 />}></Route>
-        <Route path='/projects/sridharmalini' element={<Project6 />}></Route>
+        <Route path='/projects/sridharmalini' element={<Project6 />}></Route> */}
 
 
       </Routes>

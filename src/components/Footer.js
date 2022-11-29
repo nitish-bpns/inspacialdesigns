@@ -13,7 +13,7 @@ function Footer() {
                             Address:
                         </span>
                         <br />
-                        Flat no 807, block - c, risinia trendilla, opp Darbar restaurant,<br /> bachupally x roads, bachupally, Hyderabad 500090.
+                        Flat no 807, block - c, risinia trendilla, opp Darbar restaurant,bachupally x roads, bachupally, Hyderabad 500090.
                     </div>
                 </center>
             </div>
@@ -39,12 +39,19 @@ function Footer() {
 
                     <br /><br />
                     <span className={styles.socialLink2}>
-                        Contact no: <span className={styles.footContact}>+91 6281 444 679<br />
-                            +919397688578</span>
+                        <div className={styles.footContactH}> <u> Contact no:</u></div>
+                        <br />
+                        <span className={styles.footContact}>
+                            +916281444679
+                            <br />
+                            +919397688578
+                        </span>
                     </span>
                     <br />
+                    <br />
                     <span className={styles.socialLink2}>
-                        Email Id: <span className={styles.footContact}>admin@inspacialdesigns.com</span>
+                        <u> Email Id: </u><br />
+                        <span className={styles.footContact}>admin@inspacialdesigns.com</span>
                     </span>
                 </center>
 
@@ -56,7 +63,7 @@ function Footer() {
 
 
 
-        </div>
+        </div >
     )
 }
 

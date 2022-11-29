@@ -483,11 +483,22 @@ function Home(props) {
                 </div>
                 <div className={styles.aboutCont}>
                     We create impeccable spaces that connects
-                    <span className={styles.blCont}> local elements and culture </span>
+                    {/* <span className={styles.blCont}> */}
+                    local elements and culture
+                    {/* </span> */}
                     which influences the designs and fosters simplicity. This enables preferred imperfection, story telling and personifies the process, depicting connection.
-                    <span className={styles.blCont}> The work of inspacial designs</span> excites, provokes and polarises, but never fails to surprise, to celebrate and entertain.
-                    Regarded by many as an anomaly in the design world, <span className={styles.blCont}>it is the mission to create an environment of love, live passion</span> and make our most <span className={styles.blCont}>
-                        exciting dreams come true.</span>
+                    {/* <span className={styles.blCont}>  */}
+                    The work of inspacial designs
+                    {/* </span> */}
+                    excites, provokes and polarises, but never fails to surprise, to celebrate and entertain.
+                    Regarded by many as an anomaly in the design world,
+                    {/* <span className={styles.blCont}> */}
+                    it is the mission to create an environment of love, live passion
+                    {/* </span> */}
+                    and make our most
+                    {/* <span className={styles.blCont}> */}
+                    exciting dreams come true.
+                    {/* </span> */}
                 </div>
             </div>
 
