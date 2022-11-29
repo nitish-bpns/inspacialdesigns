@@ -4,12 +4,12 @@ import './App.css';
 import Home from './pages/Home';
 import Project from './pages/Project';
 import { ScrollToTop } from 'react-router-scroll-to-top';
-import Project1 from './pages/Project1';
-import Project2 from './pages/Project2';
-import Project3 from './pages/Project3';
-import Project4 from './pages/Project4';
-import Project5 from './pages/Project5';
-import Project6 from './pages/Project6';
+// import Project1 from './pages/Project1';
+// import Project2 from './pages/Project2';
+// import Project3 from './pages/Project3';
+// import Project4 from './pages/Project4';
+// import Project5 from './pages/Project5';
+// import Project6 from './pages/Project6';
 
 
 function App() {
