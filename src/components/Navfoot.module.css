@@ -143,6 +143,7 @@ nav {
     .btn {
         display: block;
         z-index: 99;
+        margin: 0 2% 0 0;
     }
 
     .ilogo {
@@ -221,12 +222,13 @@ nav {
     .btn {
         display: block;
         z-index: 99;
+        margin: 0 0.5% 0 0;
     }
 
     .ilogo {
         height: 3rem;
         padding: 0px 0 0 0px;
-        margin: 0 16rem 0 4rem;
+        margin: 0 15rem 0 4rem;
         z-index: 99;
     }
 

@@ -119,12 +119,69 @@ function Project(props) {
                 <br />
 
                 <div className={styles.pdetail}>
-                    <span className={styles.cdate} >
+
+                    <div className={styles.prjCol}>
+                        <div className={styles.prjCol1}>
+                            Description:
+                        </div>
+                        <div className={styles.prjCol2}>
+                            {head}
+                        </div>
+                    </div>
+
+                    <div className={styles.prjCol}>
+                        <div className={styles.prjCol1}>
+                            Completion Date:
+                        </div>
+                        <div className={styles.prjCol2}>
+                            {cdate}
+                        </div>
+                    </div>
+
+                    <div className={styles.prjCol}>
+                        <div className={styles.prjCol1}>
+                            Locality:
+                        </div>
+                        <div className={styles.prjCol2}>
+                            {loc}
+                        </div>
+                    </div>
+
+                    <div className={styles.prjCol}>
+                        <div className={styles.prjCol1}>
+                            Area:
+                        </div>
+                        <div className={styles.prjCol2}>
+                            {area}
+                        </div>
+                    </div>
+
+                    <div className={styles.prjCol}>
+                        <div className={styles.prjCol1}>
+                            Category:
+                        </div>
+                        <div className={styles.prjCol2}>
+                            {category}
+                        </div>
+                    </div>
+
+                    <div className={styles.prjCol}>
+                        <div className={styles.prjCol1}>
+                            Scope of work:
+                        </div>
+                        <div className={styles.prjCol2}>
+                            {scope}
+                        </div>
+                    </div>
+
+
+
+                    {/* <span className={styles.cdate} >
                         Description: <b>{head}</b>
                     </span>
                     <br />
                     <span className={styles.cdate}>
-                        Date of Completion: <b>{cdate}</b>
+                        Completion Date: <b>{cdate}</b>
                     </span>
                     <br />
                     <span className={styles.cdate}>
@@ -141,7 +198,7 @@ function Project(props) {
                     <br />
                     <span className={styles.cdate}>
                         Scope of work: <b>{scope}</b>
-                    </span>
+                    </span> */}
 
 
                 </div>
