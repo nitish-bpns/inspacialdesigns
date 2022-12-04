@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className={styles.wfoot}>
             <div className={styles.wfoot1}>
-                <img className={styles.footIcon} src='./../images/logo.png' alt='img' />
+                <img className={styles.footIcon} src='./../images/logofoot.png' alt='img' />
 
                 <center>
                     <div className={styles.footcon}>
