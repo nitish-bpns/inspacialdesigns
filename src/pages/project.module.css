@@ -55,13 +55,21 @@
     width: 30%;
     font-size: 24px;
     line-height: 28px;
+    font-weight: 600;
 }
 
 .prjCol2 {
-    width: 70%;
+    width: 68%;
     font-size: 24px;
     line-height: 28px;
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.prjCol3 {
+    width: 2%;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 1100px) {
@@ -75,20 +83,29 @@
     }
 
     .pdetail {
-        margin: 1% 5% 5% 12%;
+        margin: 1% 5% 5% 15%;
     }
 
     .prjCol1 {
         width: 40%;
         font-size: 18px;
         line-height: 22px;
+        font-weight: 500;
+
     }
 
     .prjCol2 {
-        width: 60%;
+        width: 58%;
         font-size: 18px;
         line-height: 22px;
-        font-weight: 500;
+        font-weight: 400;
+    }
+
+    .prjCol3 {
+        width: 2%;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
     }
 
 }

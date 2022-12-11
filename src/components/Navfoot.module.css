@@ -58,6 +58,7 @@ nav {
 
 .wfoot2 {
     width: 40%;
+    margin: 1% 0 0 0;
 }
 
 .footIcon {
@@ -67,7 +68,7 @@ nav {
 
 .footHead {
     font-size: 22px;
-    line-height: 24px;
+    line-height: 45px;
     text-align: center;
     text-decoration: underline;
     color: #CBCBCB;
@@ -78,6 +79,7 @@ nav {
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+    width: 74%;
 }
 
 .socialLink {
@@ -90,10 +92,20 @@ nav {
 
 .socialLink2 {
     font-size: 22px;
-    line-height: 24px;
+    line-height: 16px;
     text-align: center;
     /* text-decoration: underline; */
     color: #CBCBCB;
+    margin: 2% 0 0 0;
+}
+
+.socialLink3 {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    /* text-decoration: underline; */
+    color: #CBCBCB;
+    margin: 2% 0 0 0;
 }
 
 .footIcon2 {
@@ -107,6 +119,12 @@ nav {
 }
 
 .footContact {
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+}
+
+.footContact2 {
     font-size: 22px;
     line-height: 24px;
     color: white;
@@ -162,7 +180,7 @@ nav {
 
     .wfoot1 {
         width: 100%;
-        margin: 0 0 10% 0;
+        margin: 0 0 6% 0;
     }
 
     .wfoot2 {
@@ -186,8 +204,23 @@ nav {
         margin: 0 0 -12px 0;
     }
 
+    .socialLink2 {
+        font-size: 22px;
+        line-height: 23px;
+        text-align: center;
+        /* text-decoration: underline; */
+        color: #CBCBCB;
+        margin: 0% 0 0 0;
+    }
 
-
+    .socialLink3 {
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        /* text-decoration: underline; */
+        color: #CBCBCB;
+        margin: -2% 0 0 0;
+    }
 
 
 }
@@ -279,10 +312,21 @@ nav {
 
     .socialLink2 {
         font-size: 18px;
-        line-height: 13px;
+        line-height: 18px;
         text-align: center;
         /* text-decoration: underline; */
         color: #CBCBCB;
+        margin: 0 0 0 0;
+    }
+
+
+    .socialLink3 {
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        /* text-decoration: underline; */
+        color: #CBCBCB;
+        margin: -5% 0 0 0;
     }
 
     .footIcon2 {
@@ -296,6 +340,12 @@ nav {
     }
 
     .footContact {
+        font-size: 15px;
+        line-height: 22px;
+        color: white;
+    }
+
+    .footContact2 {
         font-size: 15px;
         line-height: 22px;
         color: white;

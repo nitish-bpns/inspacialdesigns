@@ -38,19 +38,19 @@ function Footer() {
 
 
                     <br /><br />
-                    <span className={styles.socialLink2}>
+                    <div className={styles.socialLink2}>
                         <div className={styles.footContactH}> <u> Contact no:</u></div>
                         <br />
                         <span className={styles.footContact}>
                             +916281444679, +919397688578
                         </span>
-                    </span>
+                    </div>
                     <br />
                     <br />
-                    <span className={styles.socialLink2}>
+                    <div className={styles.socialLink3}>
                         <u> Email Id: </u><br />
-                        <span className={styles.footContact}>admin@inspacialdesigns.com</span>
-                    </span>
+                        <span className={styles.footContact2}>admin@inspacialdesigns.com</span>
+                    </div>
                 </center>
 
 

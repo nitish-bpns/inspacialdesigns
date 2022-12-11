@@ -507,7 +507,7 @@ function Home(props) {
             {/* <div className={styles.head1}>
                 Testimonials
             </div> */}
-            <br />
+            {/* <br /> */}
             <div className={styles.head1} id='contact'>
                 Contact Us
             </div>

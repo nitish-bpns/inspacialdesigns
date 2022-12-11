@@ -11,7 +11,7 @@
 }
 
 .homeCaro {
-    width: 80%;
+    width: 81%;
     margin: 0 0 0 10%;
 }
 
@@ -20,7 +20,7 @@
     opacity: 0.6;
     width: 28%;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 38px;
     line-height: 50px;
     text-align: center;
     color: #FFFFFF;
@@ -28,7 +28,7 @@
     padding: 3%;
     position: absolute;
     top: 25rem;
-    left: 15%;
+    left: 12%;
     animation-name: example2;
     /* animation-delay: 1s; */
     animation-duration: 3s;
@@ -37,6 +37,14 @@
 }
 
 .head1 {
+    font-weight: 650;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.headab {
     font-weight: 650;
     font-size: 48px;
     line-height: 56px;
@@ -107,7 +115,7 @@
 .states1 {
     display: flex;
     flex-wrap: wrap;
-    margin: 5% 12% 3% 12%;
+    margin: 5% 12% 1% 12%;
 }
 
 .statesCol {
@@ -117,14 +125,14 @@
 
 .count {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 94px;
     text-align: center;
 }
 
 .countDes {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 47px;
     /* identical to box height */
     text-align: center;
@@ -160,7 +168,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 25px;
-    text-align: center;
+    text-align: justify;
     padding: 1% 5% 2% 5%;
 }
 
@@ -175,7 +183,7 @@
 .cont {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 10% 0 10%;
+    margin: 1% 20% 0 20%;
 }
 
 .cont1 {
@@ -301,6 +309,11 @@
 
 @media screen and (max-width: 1100px) {
 
+    .homeCaro {
+        width: 100%;
+        margin: 0 0 0 0%;
+    }
+
     .gall1 {
         width: 90%;
         margin: 0 0 7px 0;
@@ -315,11 +328,12 @@
 
     .btn1 {
         font-weight: 500;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 18px;
+        line-height: 28px;
         /* background: #FBABAB; */
         background-color: #dfdfdf;
-        border-radius: 20px;
+        border: 1px solid grey;
+        border-radius: 5px;
         width: 94%;
         padding: 3px 0 3px 0;
     }
@@ -337,7 +351,7 @@
         padding: 3%;
         position: absolute;
         top: 12rem;
-        left: 15%;
+        left: 8%;
         animation-name: home_example2__2-0Ws;
         /* animation-delay: 1s; */
         animation-duration: 3s;
@@ -359,19 +373,20 @@
     .states1 {
         display: flex;
         flex-wrap: wrap;
-        margin: 10% 5% 3% 5%;
+        margin: 5% 5% 1% 5%;
     }
 
     .count {
         font-weight: 700;
-        font-size: 60px;
-        line-height: 94px;
+        font-size: 45px;
+        line-height: 80px;
         text-align: center;
     }
 
+
     .countDes {
         font-weight: 400;
-        font-size: 25px;
+        font-size: 23px;
         line-height: 28px;
         /* identical to box height */
         text-align: center;
@@ -392,10 +407,26 @@
         margin: 2% 0 0 0;
     }
 
+    .headab {
+        font-weight: 650;
+        font-size: 35px;
+        line-height: 56px;
+        text-align: center;
+        margin: 2% 0 0 0;
+    }
+
+    .aboutCont {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: justify;
+        padding: 1% 5% 2% 5%;
+    }
+
     .cont {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 5% 0 5%;
+        margin: 0 8% 0 8%;
     }
 
     .minp {
