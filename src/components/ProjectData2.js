@@ -1,11 +1,11 @@
 export const ProjectData2 = [
     {
         no: 4,
-        title: `Venkatramana's`,
+        title: `Rishwith Karthi's`,
         // path: '/projects/venkatramana',
         path: '/projects',
         img: ['./../images/P4/1.jpg', './../images/P4/2.jpg', './../images/P4/3.jpg', './../images/P4/4.jpg', './../images/P4/5.jpg', './../images/P4/6.jpg', './../images/P4/7.jpg', './../images/P4/8.jpg', './../images/P4/9.jpg', './../images/P4/10.jpg', './../images/P4/11.jpg', './../images/P4/12.jpg', './../images/P4/13.jpg', './../images/P4/14.jpg', './../images/P4/15.jpg', './../images/P4/16.jpg'],
-        owner: 'Venkatraman',
+        owner: 'Rishwith Karthi',
         sdate: '444',
         cdate: 'June, 2022',
         location: 'Risinia Trendilla, Bachupally, Hyderabad, Telangana',
@@ -41,7 +41,7 @@ export const ProjectData2 = [
         sdate: '666',
         cdate: 'Oct, 2022',
         location: 'Secunderabad, Telangana',
-        area: '_',
+        area: 'NA',
         category: 'Elevation Design',
         head: 'Indo Westren',
         desc1: 'Design',

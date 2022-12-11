@@ -474,12 +474,12 @@ function Home(props) {
 
 
             <div className={styles.aboutSec} id='about' >
-                <div className={styles.head1}>
+                <div className={styles.headab}>
                     About Us
                 </div>
                 <div className={styles.aboutCont}>
                     Inspacial design studio is a creative
-                    interior design studio located in hyderabad, fulfilling its mission to “create an environment of love, live with passion and make our most exciting dreams come true”. Over 3 years, the studeo’s design and communication experts have served many clients.
+                    interior design studio located in hyderabad, fulfilling its mission to “create an environment of love, live with passion and make our most exciting dreams come true”. Over 3 years, the studio’s design and communication experts have served many clients.
                 </div>
 
                 <div className={styles.head1}>
@@ -487,22 +487,20 @@ function Home(props) {
                 </div>
                 <div className={styles.aboutCont}>
                     We create impeccable spaces that connects
-                    {/* <span className={styles.blCont}> */}
+
                     local elements and culture
-                    {/* </span> */}
+
                     which influences the designs and fosters simplicity. This enables preferred imperfection, story telling and personifies the process, depicting connection.
-                    {/* <span className={styles.blCont}>  */}
-                    The work of inspacial designs
-                    {/* </span> */}
-                    excites, provokes and polarises, but never fails to surprise, to celebrate and entertain.
+
+                    The work of inspacial designs excites, provokes and polarises, but never fails to surprise, to celebrate and entertain.
                     Regarded by many as an anomaly in the design world,
-                    {/* <span className={styles.blCont}> */}
+
                     it is the mission to create an environment of love, live passion
-                    {/* </span> */}
+
                     and make our most
-                    {/* <span className={styles.blCont}> */}
+
                     exciting dreams come true.
-                    {/* </span> */}
+
                 </div>
             </div>
 

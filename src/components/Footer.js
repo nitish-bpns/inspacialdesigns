@@ -42,9 +42,7 @@ function Footer() {
                         <div className={styles.footContactH}> <u> Contact no:</u></div>
                         <br />
                         <span className={styles.footContact}>
-                            +916281444679
-                            <br />
-                            +919397688578
+                            +916281444679, +919397688578
                         </span>
                     </span>
                     <br />

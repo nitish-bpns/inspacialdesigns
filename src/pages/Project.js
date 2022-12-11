@@ -122,8 +122,12 @@ function Project(props) {
 
                     <div className={styles.prjCol}>
                         <div className={styles.prjCol1}>
-                            Description:
+                            Description
                         </div>
+                        <div className={styles.prjCol3}>
+                            :
+                        </div>
+
                         <div className={styles.prjCol2}>
                             {head}
                         </div>
@@ -131,7 +135,10 @@ function Project(props) {
 
                     <div className={styles.prjCol}>
                         <div className={styles.prjCol1}>
-                            Completion Date:
+                            Completion Date
+                        </div>
+                        <div className={styles.prjCol3}>
+                            :
                         </div>
                         <div className={styles.prjCol2}>
                             {cdate}
@@ -140,7 +147,10 @@ function Project(props) {
 
                     <div className={styles.prjCol}>
                         <div className={styles.prjCol1}>
-                            Locality:
+                            Locality
+                        </div>
+                        <div className={styles.prjCol3}>
+                            :
                         </div>
                         <div className={styles.prjCol2}>
                             {loc}
@@ -149,7 +159,10 @@ function Project(props) {
 
                     <div className={styles.prjCol}>
                         <div className={styles.prjCol1}>
-                            Area:
+                            Area
+                        </div>
+                        <div className={styles.prjCol3}>
+                            :
                         </div>
                         <div className={styles.prjCol2}>
                             {area}
@@ -158,7 +171,10 @@ function Project(props) {
 
                     <div className={styles.prjCol}>
                         <div className={styles.prjCol1}>
-                            Category:
+                            Category
+                        </div>
+                        <div className={styles.prjCol3}>
+                            :
                         </div>
                         <div className={styles.prjCol2}>
                             {category}
@@ -167,7 +183,10 @@ function Project(props) {
 
                     <div className={styles.prjCol}>
                         <div className={styles.prjCol1}>
-                            Scope of work:
+                            Scope of work
+                        </div>
+                        <div className={styles.prjCol3}>
+                            :
                         </div>
                         <div className={styles.prjCol2}>
                             {scope}

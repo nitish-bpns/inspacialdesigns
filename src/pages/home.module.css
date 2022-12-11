@@ -11,7 +11,8 @@
 }
 
 .homeCaro {
-    width: 100%;
+    width: 80%;
+    margin: 0 0 0 10%;
 }
 
 .caroText {
@@ -82,8 +83,9 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    background: #FBABAB;
-    border-radius: 20px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    border: 1px solid grey;
     width: 400px;
     padding: 3px 0 3px 0;
 }
@@ -477,7 +479,15 @@
         font-size: 24px;
         line-height: 29px;
         text-align: center;
-        margin: 8% 0 0 0;
+        margin: 6% 0 0 0;
+    }
+
+    .headab {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin: 2% 0 0 0;
     }
 
     .readBtn {
@@ -493,14 +503,15 @@
 
     .btn1 {
         font-weight: 500;
-        font-size: 18px;
-        line-height: 36px;
+        font-size: 12px;
+        line-height: 20px;
         /* background: #FBABAB; */
         background-color: #dfdfdf;
-        border-radius: 20px;
-        width: 200px;
+        border-radius: 5px;
+        width: 100%;
         padding: 3px 0 3px 0;
-        margin: 3px 0 2px 0;
+        margin: 15px 0 2px 0;
+        border: 1px solid grey;
     }
 
     .gall1 {
@@ -525,7 +536,7 @@
 
     .count {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 28px;
         line-height: 47px;
         text-align: center;
     }
@@ -566,10 +577,10 @@
 
     .aboutCont {
         font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        padding: 2% 5% 3% 5%;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: justify;
+        padding: 2% 1% 3% 1%;
     }
 
     .blCont {
@@ -586,11 +597,11 @@
     }
 
     .cont1 {
-        width: 100%;
+        width: 50%;
     }
 
     .cont2 {
-        width: 100%;
+        width: 50%;
     }
 
     .cont1Btn {

@@ -135,15 +135,23 @@
 
     .prjCol1 {
         width: 40%;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 500;
     }
 
     .prjCol2 {
-        width: 60%;
+        width: 58%;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .prjCol3 {
+        width: 2%;
         font-size: 18px;
         line-height: 22px;
-        font-weight: 500;
+        font-weight: 400;
     }
 
 }
