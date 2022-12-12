@@ -314,6 +314,14 @@
         margin: 0 0 0 0%;
     }
 
+    .aboutSec {
+        background-color: #D9D9D9;
+        width: 90%;
+        margin: 2.5% 0% 1% 0%;
+        text-align: center;
+        padding: 1% 5% 2% 5%;
+    }
+
     .gall1 {
         width: 90%;
         margin: 0 0 7px 0;
@@ -417,8 +425,8 @@
 
     .aboutCont {
         font-weight: 400;
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 18px;
+        line-height: 20px;
         text-align: justify;
         padding: 1% 5% 2% 5%;
     }
