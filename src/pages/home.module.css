@@ -333,7 +333,63 @@
         text-shadow: 0px 0px 1px #000000;
         padding: 3%;
         position: absolute;
-        top: 25rem;
+        top: 22rem;
+        left: 12%;
+        animation-name: example2;
+        /* animation-delay: 1s; */
+        animation-duration: 3s;
+        /* animation-fill-mode: forwards; */
+
+    }
+
+    .gall1 {
+        width: 90%;
+        margin: 0 0 7px 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .btn1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        border: 1px solid grey;
+        width: 340px;
+        padding: 3px 0 3px 0;
+    }
+
+    .readBtn {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 8rem 0 8rem;
+        justify-content: center;
+    }
+
+    .states1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5% 6% 1% 6%;
+    }
+
+    .caroText {
+        background-color: black;
+        opacity: 0.6;
+        width: 28%;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 1px #000000;
+        padding: 3%;
+        position: absolute;
+        top: 14rem;
         left: 12%;
         animation-name: example2;
         /* animation-delay: 1s; */
@@ -344,10 +400,55 @@
 
 }
 
+@media screen and (max-width: 1320px) {
+
+    .btn1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        border: 1px solid grey;
+        width: 300px;
+        padding: 3px 0 3px 0;
+    }
+
+    .readBtn {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 7rem 0 7rem;
+        justify-content: center;
+    }
 
 
 
+}
 
+
+
+@media screen and (max-width: 1150px) {
+
+    .btn1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        background-color: #dfdfdf;
+        border-radius: 10px;
+        border: 1px solid grey;
+        width: 280px;
+        padding: 3px 0 3px 0;
+    }
+
+    .readBtn {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 6rem 0 6rem;
+        justify-content: center;
+    }
+
+
+
+}
 
 
 @media screen and (max-width: 1100px) {

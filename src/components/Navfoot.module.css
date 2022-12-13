@@ -151,13 +151,64 @@ nav {
     }
 }
 
+@media screen and (max-width: 1440px) {
+
+    .ilogo {
+        margin: 0 11rem 0 7rem;
+        height: 2.5rem;
+    }
+
+    .items {
+        margin-right: 3rem;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: black;
+        cursor: pointer;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1240px) {
+
+    .ilogo {
+        margin: 0 9rem 0 5rem;
+        height: 2.5rem;
+    }
+
+    .items {
+        margin-right: 3rem;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: black;
+        cursor: pointer;
+    }
+
+
+}
 
 
 
 
+@media screen and (max-width: 1150px) {
+
+    .ilogo {
+        margin: 0 7rem 0 3rem;
+        height: 2.5rem;
+    }
+
+    .items {
+        margin-right: 2.5rem;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: black;
+        cursor: pointer;
+    }
 
 
-
+}
 
 
 
@@ -264,6 +315,7 @@ nav {
 
 
 }
+
 
 
 
