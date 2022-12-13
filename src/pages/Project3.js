@@ -6,6 +6,19 @@ import Sugg2 from '../components/Sugg2';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+
+
+
+
 
 const responsive = {
     desktop: {

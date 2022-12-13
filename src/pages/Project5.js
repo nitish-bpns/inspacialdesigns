@@ -7,6 +7,23 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 
+
+
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+//THIS FILE IS NOT IN USE
+
+
+
+
+
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
