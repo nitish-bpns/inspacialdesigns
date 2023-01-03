@@ -80,7 +80,8 @@ function Caro2(props) {
                                     loc: item.location,
                                     area: item.area,
                                     category: item.category,
-                                    scope: item.desc1
+                                    scope: item.desc1,
+                                    descp: item.desc2
 
                                 }}
                             >

@@ -31,7 +31,7 @@ const responsive = {
 function Project(props) {
 
     const location = useLocation()
-    const { itemTitle, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, no, head, cdate, loc, area, category, scope } = location.state
+    const { itemTitle, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, no, head, cdate, loc, area, category, scope, descp } = location.state
 
 
     return (
@@ -194,33 +194,13 @@ function Project(props) {
                     </div>
 
 
-
-                    {/* <span className={styles.cdate} >
-                        Description: <b>{head}</b>
-                    </span>
-                    <br />
-                    <span className={styles.cdate}>
-                        Completion Date: <b>{cdate}</b>
-                    </span>
-                    <br />
-                    <span className={styles.cdate}>
-                        Locality: <b>{loc}</b>
-                    </span>
-                    <br />
-                    <span className={styles.cdate}>
-                        Area: <b>{area}</b>
-                    </span>
-                    <br />
-                    <span className={styles.cdate}>
-                        Category: <b>{category}</b>
-                    </span>
-                    <br />
-                    <span className={styles.cdate}>
-                        Scope of work: <b>{scope}</b>
-                    </span> */}
-
-
                 </div>
+
+
+                <div className={styles.prjdescp}>
+                    {descp}
+                </div>
+
 
             </div>
 

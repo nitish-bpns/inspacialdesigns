@@ -13,7 +13,7 @@ export const ProjectData2 = [
         category: 'Residential Interiors',
         head: 'Scandinavian',
         desc1: 'Design & Execution',
-        desc2: 'd desc 2',
+        desc2: 'Interiors in white and grey are crisp, clean, and beautiful. The color scheme is extremely versatile; it can be all of the above with just a hint of black, and it works well with almost any colour. White is frequently used to create a luxurious feeling within an interior space , so  Stay ahead of this trend by emphasising its benefits on shelves, tables, flooring, and walls.',
     },
     {
         no: 5,
@@ -29,7 +29,7 @@ export const ProjectData2 = [
         category: 'Residential Interiors',
         head: 'Scandinavian',
         desc1: 'Design & Execution',
-        desc2: 'e desc 2',
+        desc2: `We advised a Scandinavian-themed interior design because the client desired more whites and greys in the interiors.The warm, luxurious feel of Scandinavian interior design is well known. Clean lines and geometric shapes define this design, which is also light and airy. This style's colors are neutral and soft, with whites and grays being especially popular. Scandinavian style is growing in popularity year after year.`,
     },
     {
         no: 6,
@@ -45,6 +45,6 @@ export const ProjectData2 = [
         category: 'Elevation Design',
         head: 'Indo Westren',
         desc1: 'Design',
-        desc2: 'f desc 2',
+        desc2: '',
     },
 ];

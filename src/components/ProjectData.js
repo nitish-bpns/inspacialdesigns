@@ -13,7 +13,8 @@ export const ProjectData = [
         category: 'Residential Interiors',
         head: 'Use of wood Grains',
         desc1: 'Design',
-        desc2: 'a desc 2',
+        desc2: `Interior design with wooden laminates 2
+        This space is a fresh take on modern architecture, with crisp lines, unique details, and high-quality fixtures. This gallery feels like home because of the stylish simplicity of the modern design and the simple beauty of natural finishes.`,
 
     },
     {
@@ -30,7 +31,9 @@ export const ProjectData = [
         category: 'Residential Interiors',
         head: 'Contemporary',
         desc1: 'Design & Execution',
-        desc2: 'b desc 2',
+        desc2: `Interior design with modern touch
+        Exploring the possibilities and opportunities of innovative, sleek, and timeless designs is central to modern interior design. Our new collection is inspired by the latest trends that are defining a distinct modern aesthetic - combining clean lines and contemporary forms with abstract, artistic motifs.
+         Every space has its own distinct aesthetic, which is reflected in the design of every space, from entryways to bedrooms.`,
 
     },
     {
@@ -47,7 +50,11 @@ export const ProjectData = [
         category: 'Elevation design',
         head: 'Contemporary',
         desc1: 'Design',
-        desc2: 'c desc 2',
+        desc2: `The modern terrace is a great way to add a splash of color and texture to your home without completely overhauling the exterior.
+
+        While adding more natural elements like wood and stone can't go wrong, it's also nice to take a break from it all. The contemporary terrace is an excellent way to accomplish this—it combines the rustic charm of wood with the modern architecture of concrete.
+        
+        The client requested that the terrace space be made more modern and elegant. So we experimented with adding contemporary materials to make the space appear simple and neat.`,
 
     },
 ];
