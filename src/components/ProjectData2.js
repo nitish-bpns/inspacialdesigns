@@ -45,6 +45,7 @@ export const ProjectData2 = [
         category: 'Elevation Design',
         head: 'Indo Westren',
         desc1: 'Design',
-        desc2: '',
+        desc2: `This contemporary elevation design has a wood and concrete exterior that distinguishes it from other homes in the neighborhood. The open concept family room has high ceilings and plenty of natural light. This modern elevation design with a wood and concrete exterior will enhance your living space. 
+        The perfect balance of form, function, and beauty will improve the building's appearance and feel.`,
     },
 ];
