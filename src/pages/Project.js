@@ -31,7 +31,7 @@ const responsive = {
 function Project(props) {
 
     const location = useLocation()
-    const { itemTitle, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, no, head, cdate, loc, area, category, scope, descp } = location.state
+    const { itemTitle, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, no, head, cdate, loc, area, category, scope, descp, desc3, desc4 } = location.state
 
 
     return (
@@ -51,8 +51,8 @@ function Project(props) {
                     responsive={responsive}
                     ssr={false}
                     infinite={true}
-                    autoPlay={props.deviceType !== "mobile" ? true : false}
-                    autoPlaySpeed={2500}
+                    autoPlay={props.deviceType !== "mobile" ? true : true}
+                    autoPlaySpeed={1800}
                     keyBoardControl={true}
                     // customTransition="all .5"
                     transitionDuration={500}
@@ -199,6 +199,10 @@ function Project(props) {
 
                 <div className={styles.prjdescp}>
                     {descp}
+                    <br /><br />
+                    {desc3}
+                    <br /><br />
+                    {desc4}
                 </div>
 
 

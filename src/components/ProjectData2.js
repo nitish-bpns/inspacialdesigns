@@ -13,7 +13,9 @@ export const ProjectData2 = [
         category: 'Residential Interiors',
         head: 'Scandinavian',
         desc1: 'Design & Execution',
-        desc2: 'Interiors in white and grey are crisp, clean, and beautiful. The color scheme is extremely versatile; it can be all of the above with just a hint of black, and it works well with almost any colour. White is frequently used to create a luxurious feeling within an interior space , so  Stay ahead of this trend by emphasising its benefits on shelves, tables, flooring, and walls.',
+        desc2: 'Interiors in white and grey are crisp, clean, and beautiful. ',
+        desc3: `The color scheme is extremely versatile; it can be all of the above with just a hint of black, and it works well with almost any colour.`,
+        desc4: `White is frequently used to create a luxurious feeling within an interior space , so  Stay ahead of this trend by emphasising its benefits on shelves, tables, flooring, and walls.`
     },
     {
         no: 5,
@@ -29,7 +31,9 @@ export const ProjectData2 = [
         category: 'Residential Interiors',
         head: 'Scandinavian',
         desc1: 'Design & Execution',
-        desc2: `We advised a Scandinavian-themed interior design because the client desired more whites and greys in the interiors.The warm, luxurious feel of Scandinavian interior design is well known. Clean lines and geometric shapes define this design, which is also light and airy. This style's colors are neutral and soft, with whites and grays being especially popular. Scandinavian style is growing in popularity year after year.`,
+        desc2: `We advised a Scandinavian-themed interior design because the client desired more whites and greys in the interiors. `,
+        desc3: `The warm, luxurious feel of Scandinavian interior design is well known. Clean lines and geometric shapes define this design, which is also light and airy.`,
+        desc4: `This style's colors are neutral and soft, with whites and grays being especially popular. Scandinavian style is growing in popularity year after year.`
     },
     {
         no: 6,
@@ -45,7 +49,8 @@ export const ProjectData2 = [
         category: 'Elevation Design',
         head: 'Indo Westren',
         desc1: 'Design',
-        desc2: `This contemporary elevation design has a wood and concrete exterior that distinguishes it from other homes in the neighborhood. The open concept family room has high ceilings and plenty of natural light. This modern elevation design with a wood and concrete exterior will enhance your living space. 
-        The perfect balance of form, function, and beauty will improve the building's appearance and feel.`,
+        desc2: `This contemporary elevation design has a wood and concrete exterior that distinguishes it from other homes in the neighborhood.`,
+        desc3: `The open concept family room has high ceilings and plenty of natural light. This modern elevation design with a wood and concrete exterior will enhance your living space. `,
+        desc4: `The perfect balance of form, function, and beauty will improve the building's appearance and feel.`
     },
 ];

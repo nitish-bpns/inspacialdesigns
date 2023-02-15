@@ -45,7 +45,9 @@ function Sugg2() {
                             area: item.area,
                             category: item.category,
                             scope: item.desc1,
-                            descp: item.desc2
+                            descp: item.desc2,
+                            desc3: item.desc3,
+                            desc4: item.desc4
 
 
                         }}
